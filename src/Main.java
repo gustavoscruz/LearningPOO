@@ -6,6 +6,5 @@ public class Main {
         Pessoa p4 = new Pessoa("Flakas", 15);
         Pessoa p5 = new Pessoa("Alice", 10);
 
-
     }
 }
