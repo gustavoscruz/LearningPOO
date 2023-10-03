@@ -1,9 +1,9 @@
 public class Produto {
     private String name;
-    private float price;
+    private double price;
     private int quantify;
 
-    public Produto(String nome, float preco, int quantidade){
+    public Produto(String nome, double preco, int quantidade){
         this.name = nome;
         this.price = preco;
         this.quantify = quantidade;
@@ -15,11 +15,11 @@ public class Produto {
         return this.name;
     }
 
-    public float getPrice(){
+    public double getPrice(){
         return this.price;
     }
 
-    public void setPrice(float preco){
+    public void setPrice(double preco){
         this.price = preco;
     }
 
@@ -31,7 +31,7 @@ public class Produto {
         this.quantify = quantidade;
     }
 
-    public float valueTotal(){
+    public double valueTotal(){
         return this.price * this.quantify;
     }
 
@@ -41,7 +41,8 @@ public class Produto {
     }
 
     public boolean remove(int quantidade){
-        if (this.quantify <= 0){
+        if (this.quantify <= 0 || (this.quantify - quantidade) < 0){
+            this.quantify = 0;
             return false;
         }
         else{
