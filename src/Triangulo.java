@@ -13,7 +13,7 @@ public class Triangulo {
         return this.base;
     }
 
-    public double getBase(){
+    public double getHeight(){
         return this.height;
     }
 
