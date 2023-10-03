@@ -16,6 +16,6 @@ public class Carro {
     }
 
     public String toString(){
-        return "marca: " + this.brand + " modelo: " + this.model + " ano de fabricação: " + this.year;
+        return "Marca: " + this.brand + "\nModelo: " + this.model + "\nAno de fabricação: " + this.year + "\n";
     }
 }
