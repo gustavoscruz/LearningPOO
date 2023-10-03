@@ -7,19 +7,19 @@ public class Pessoa {
         this.idade = age;
     }
 
-    public getNome(){
+    public String getNome(){
         return this.nome;
     }
 
-    public setNome(String name){
+    public void setNome(String name){
         this.nome = name;
     }
 
-    public getIdade(){
+    public int getIdade(){
         return this.idade;
     }
 
-    public setIdade(int age){
+    public void setIdade(int age){
         this.idade = age;
     }
 
