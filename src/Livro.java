@@ -9,6 +9,8 @@ public class Livro {
         this.numberPages = numero;
     }
 
+    public Livro(){}
+
     public String getTitle(){
         return this.title;
     }
