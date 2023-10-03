@@ -10,8 +10,8 @@ public class Carro {
     }
 
     public Carro(){
-        this.brand = "";
-        this.model = "";
+        this.brand = "Não especificada";
+        this.model = "Não especificado";
         this.year = 0;
     }
 
