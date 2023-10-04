@@ -21,6 +21,6 @@ public class Triangulo {
         return this.base * this.height * 0.5;
     }
     public String toString(){
-        return "Base: " + this.base + "\nAltura: " + this.height + "\nÁrea: " + this.base * this.height * 0.5 + "\n";
+        return "Base: " + this.base + "\nAltura: " + this.height + "\nÁrea: " + this.calculateArea() + "\n";
     }
 }
